@@ -6,8 +6,8 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, World!")
-	fmt.Fprint(w, "This line is to validate te code and the test are working properly \n I will commit again")
+	fmt.Fprintf(w, "Hello, World! This line is to validate te code and the test are working properly.I will commit again")
+	//fmt.Fprint(w, "This line is to validate te code and the test are working properly.I will commit again")
 }
 
 func main() {

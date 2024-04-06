@@ -25,7 +25,7 @@ func TestHandler(t *testing.T) {
 	}
 
 	// Check the body of the response
-	expectedBody := "Hello, World!"
+	expectedBody := "Hello, World! This line is to validate te code and the test are working properly.I will commit again"
 	if rr.Body.String() != expectedBody {
 		t.Errorf("handler returned unexpected body: got %v want %v", rr.Body.String(), expectedBody)
 	}
